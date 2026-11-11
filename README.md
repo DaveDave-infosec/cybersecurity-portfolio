@@ -13,7 +13,6 @@ This is a central index of my cybersecurity work. **Each project remains in its 
 | **01** | [OpenCTI + Splunk Threat Intelligence Integration](https://github.com/DaveDave-infosec/opencti-splunk-cti-integration) | Threat intelligence platform integration and SOC enrichment | Setup, configuration and investigation documentation |
 | **02** | [Arkime Network Packet Indexer](https://github.com/DaveDave-infosec/arkime-network-packet-indexer) | Packet capture, session indexing and network traffic review | Lab build, service troubleshooting and Arkime session screenshots |
 | **03** | [Microsoft Sentinel + AbuseIPDB IP Reputation Enrichment](https://github.com/DaveDave-infosec/sentinel-abuseipdb-ip-enrichment) | SOAR automation with Azure Logic Apps and IP reputation lookups | Successful playbook runs, incident comments and verified screenshots |
-
 | **04** | [SOC Detection Engineering Lab](https://github.com/DaveDave-infosec/SOC-Detection-Engineering-Lab) | Windows, firewall, and network telemetry in Splunk; evidence-based triage | Seven screenshots, two investigations, and documented visibility limitations |
 | **05** | [Splunk SOAR Automated Incident Response](https://github.com/DaveDave-infosec/splunk-soar-automated-incident-response) | IP reputation enrichment, analyst approvals, and lab AD response | Two Python/JSON playbooks and six screenshots, including a connector-reported test-account disable result |
 
