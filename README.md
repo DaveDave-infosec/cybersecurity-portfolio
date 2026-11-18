@@ -15,6 +15,7 @@ This is a central index of my cybersecurity work. **Each project remains in its 
 | **03** | [Microsoft Sentinel + AbuseIPDB IP Reputation Enrichment](https://github.com/DaveDave-infosec/sentinel-abuseipdb-ip-enrichment) | SOAR automation with Azure Logic Apps and IP reputation lookups | Successful playbook runs, incident comments and verified screenshots |
 | **04** | [SOC Detection Engineering Lab](https://github.com/DaveDave-infosec/SOC-Detection-Engineering-Lab) | Windows, firewall, and network telemetry in Splunk; evidence-based triage | Seven screenshots, two investigations, and documented visibility limitations |
 | **05** | [Splunk SOAR Automated Incident Response](https://github.com/DaveDave-infosec/splunk-soar-automated-incident-response) | IP reputation enrichment, analyst approvals, and lab AD response | Two Python/JSON playbooks and six screenshots, including a connector-reported test-account disable result |
+| **06** | [SOC Automation 2.0 — Splunk Threat Detection & AI Triage](https://github.com/DaveDave-infosec/soc-automation-2.0) | Five-minute Splunk REST polling with n8n, IP filtering, AbuseIPDB, GPT-5 Mini, and Slack | Real Windows 4625 detection; simulated eight-node alert delivered; published schedule verified |
 
 ### 01 — OpenCTI + Splunk Threat Intelligence Integration
 
@@ -56,6 +57,14 @@ Built two investigation playbooks for IP reputation enrichment and conditional t
 
 [**Explore Project 05 →**](https://github.com/DaveDave-infosec/splunk-soar-automated-incident-response)
 
+### 06 — SOC Automation 2.0 — Splunk Threat Detection & AI Triage
+
+**Skills:** Splunk SPL/REST, Windows Security Event 4625, n8n, SSH, JavaScript, AbuseIPDB, OpenAI, Slack
+
+Developed and published an eight-node, five-minute n8n automation that queries Splunk Free through its REST API for repeated failed Windows logons, filters non-public IPs, enriches public IPs, assesses reputation with GPT-5 Mini, and posts SOC alerts to Slack. Validated actual Windows logon failures and a separate, clearly marked simulated full-path alert. The repository provides a sanitized workflow, redacted Splunk script example, testing record, and documented operational limitations.
+
+[**Explore Project 06 →**](https://github.com/DaveDave-infosec/soc-automation-2.0)
+
 ## Skills and tools
 
 | Area | Technologies practiced |
@@ -63,7 +72,7 @@ Built two investigation playbooks for IP reputation enrichment and conditional t
 | SIEM & investigation | Splunk, Microsoft Sentinel |
 | Threat intelligence | OpenCTI, AbuseIPDB, VirusTotal, REST API enrichment |
 | Network monitoring | Arkime, Zeek, Suricata, pfSense, packet/session analysis |
-| Security automation | Azure Logic Apps, Microsoft Sentinel automation rules, Splunk SOAR, AD LDAP response |
+| Security automation | Azure Logic Apps, Microsoft Sentinel automation rules, Splunk SOAR, n8n, Slack, AD LDAP response |
 | Infrastructure | Ubuntu Server, VMware Workstation, OpenSearch, Active Directory, Group Policy, Sysmon |
 | Documentation | Lab architecture, testing evidence, GitHub project reports |
 
